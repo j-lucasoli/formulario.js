@@ -8,10 +8,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+
     <form>
+      <div id="titulo-formulario">
+
         <h1 class="titulo">formulario</h1>
-       
+    </div>
+
+       <div id="inf-form">
         <label for="nome">Nome</label>
         <input type="text" id='nome' placeholder="digite o nome" ><br><br>
         
@@ -22,14 +26,16 @@
         <label for="E-mail">E-mail</label>
         <input type="email" id="mail" placeholder="digite o email"><br><br>
         <button id ="btn" type="submit">confirmar</button>
-    </form>
-
+    </div>
+  
+</form>
+<div id="inf-tabela">
 <table>
 <thead>
     <tr>
-        <th>Nome</th>
-        <th>Endereço</th>
-        <th>E-mail</th>
+        <th >Nome</th>
+        <th >Endereço</th>
+        <th >E-mail</th>
     </tr>
 </thead>
 <tbody id="corpo-tabela">
@@ -39,6 +45,7 @@
 </tbody>
 
 </table>
+</div>
     
 
 <script src="script.js">
