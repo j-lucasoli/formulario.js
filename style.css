@@ -13,12 +13,9 @@ background-color: #576F72 ;
 .titulo{
     margin-bottom: 30px;
     color:#E4DCCF;
-  @font-face {
-    font-family:'Poppins', sans-serif;
-    src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">);}
-  }
+}
+    
+  
     
 
 
@@ -32,3 +29,13 @@ border-radius: 20%;
 background-color: #7D9D9C;
 color: #F0EBE3;}
 
+tr{
+    color: #E4DCCF;
+    font-size: 110%;
+    @font-face {
+        font-family:'Poppins', sans-serif; ;
+        src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">);
+    }
+}
