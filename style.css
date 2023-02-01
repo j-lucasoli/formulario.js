@@ -3,39 +3,64 @@ padding: 0;
 box-sizing: border-box;
 }
 
-body{display: flex;
-flex-wrap: wrap;
-background-color: #576F72 ;
+body{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #0A2647,#2C74B3 ) ;
 
 
 }
-
-.titulo{
-    margin-bottom: 30px;
-    color:#E4DCCF;
-}
-    
-  
-    
-
 
 form{
     
     padding: 10px;
+    border-style: solid;
+    border-radius: 10%;
+    border-color: #2C74B3;
+    display: inline-block;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 10%;
 }
 button{
-padding: 10px;
-border-radius: 20%;
-background-color: #7D9D9C;
-color: #F0EBE3;}
+    padding: 10px;
+    border-radius: 20%;
+    background-color: #2C74B3;
+    color: #F0EBE3;
+    font-family: 'Oswald', sans-serif;
+    border-color: #205295;
+    text-align: center;
+    
+   
 
-tr{
-    color: #E4DCCF;
-    font-size: 110%;
-    @font-face {
-        font-family:'Poppins', sans-serif; ;
-        src: url(<link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500&display=swap" rel="stylesheet">);
-    }
+  }
+    button:hover{
+        color: #790252;
+        cursor:pointer;
 }
+
+th{
+    color:#5B8FB9;
+    font-size: 110%;
+    
+    }
+label{
+    color: #5B8FB9;
+}
+
+
+    /*==================seção de ids====*/
+
+#inf-tabela{
+    border: solid;
+    border-radius: 5%;
+    border-color:#205295;
+    margin-top: 10%
+    
+}
+
+    /*======seção de classes========*/
+    .titulo{
+        margin-bottom: 30px;
+        color:#2C74B3;
+    }
