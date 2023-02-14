@@ -44,6 +44,7 @@ button{
 th{
     color:#5B8FB9;
     font-size: 110%;
+    padding:0px 10px;
     
     }
 label{
@@ -67,7 +68,7 @@ input{
 #inf-tabela{
     border: solid;
     border-radius: 5%;
-    border-color:#205295;
+    border-color: #0A2647;
     margin-top: 10%
     
 }
