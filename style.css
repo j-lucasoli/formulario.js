@@ -30,6 +30,7 @@ button{
     font-family: 'Oswald', sans-serif;
     border-color: #205295;
     text-align: center;
+    margin-left: 88px;
     
    
 
@@ -37,6 +38,7 @@ button{
     button:hover{
         color: #790252;
         cursor:pointer;
+       
 }
 
 th{
@@ -46,6 +48,17 @@ th{
     }
 label{
     color: #5B8FB9;
+    padding: 15px;
+    text-align: right;
+    width: 90px;
+    display: inline-block;
+}
+input{
+   
+    width: 200px;
+    text-align: left;
+     padding: 5px;
+     margin-left: 10px
 }
 
 
